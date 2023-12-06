@@ -1,1 +1,75 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>lo-fi aesthetic pomodoro timer · study, co-work, vibe</title><link rel="stylesheet" href="/index.6101887c.css"><link rel="icon shortcut" href="/favicon.67dc95c2.png" type="image/x-icon"><script src="https://www.youtube.com/iframe_api"></script><script src="https://cdn.usefathom.com/script.js" data-site="BSVQWCDR" defer></script><link rel="stylesheet" href="https://use.typekit.net/ehg8jaq.css"></head><body> <div class="background-noise"></div> <div class="background-vignette"> <img src="/vignette.fe02757c.png" alt> </div> <div class="background-color"></div> <div class="background-texture"></div> <main> <div class="header"> <h1> lo-fi aesthetic pomodoro timer </h1> <p> start a study/work/vibe session with <i>lo-fi girl</i>, take a break when you hear the <i>♫</i> <span class="select"> <select id="sound-effect"> <option value="buzz">buzz</option> <option value="chime">bloom</option> <option value="gameShow">chime</option> <option value="ding">ding</option> <option value="doorbell">door</option> <option value="harp">harp</option> <option value="magicalGirl">magic</option> <option value="none">silence</option> </select> </span>, repeat until you’re done.<br> <i>(current session: #<span id="counter">1</span>)</i> </p> </div> <div class="primary-controls"> <div class="clock"> 2:00 </div> <button id="session-control" class="button button-primary">▶ Start session</button> </div> <div class="video-container"> <div id="player"></div> </div> <div id="audio-controls"> <svg width="24" height="24"><path d="m7.727 6.313-4.02-4.02-1.414 1.414 18 18 1.414-1.414-2.02-2.02A9.578 9.578 0 0 0 21.999 12c0-4.091-2.472-7.453-5.999-9v2c2.387 1.386 3.999 4.047 3.999 7a8.13 8.13 0 0 1-1.671 4.914l-1.286-1.286C17.644 14.536 18 13.19 18 12c0-1.771-.775-3.9-2-5v7.586l-2-2V2.132zM4 17h2.697L14 21.868v-3.747L3.102 7.223A1.995 1.995 0 0 0 2 9v6c0 1.103.897 2 2 2"/></svg> <input type="range" id="volume-slider" min="0" max="100" value="100"> <svg width="24" height="24"><path d="M16 21c3.527-1.547 5.999-4.909 5.999-9S19.527 4.547 16 3v2c2.387 1.386 3.999 4.047 3.999 7S18.387 17.614 16 19z"/><path d="M16 7v10c1.225-1.1 2-3.229 2-5s-.775-3.9-2-5M4 17h2.697L14 21.868V2.132L6.697 7H4c-1.103 0-2 .897-2 2v6c0 1.103.897 2 2 2"/></svg> </div> </main> <script type="module" src="/index.8f7922b1.js"></script><script src="/index.d390ede6.js" nomodule defer></script> </body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    
+    <title>lo-fi aesthetic pomodoro timer · study, co-work, vibe</title>    
+    <meta property="og:url" content="https://pomodoro.day">
+    <meta property="og:image" content="/assets/images/card.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:image" content="./assets/images/card.png">
+
+    <link rel="stylesheet" href="/index.2cdaf7bc.css">
+
+    <link rel="shortcut icon" href="/favicon.0f1069a7.png" type="image/x-icon">
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="https://cdn.usefathom.com/script.js" data-site="BSVQWCDR" defer=""></script>
+
+    <link rel="stylesheet" href="https://use.typekit.net/ehg8jaq.css">
+  </head>
+  <body>
+    <div class="background-noise"></div>
+    <div class="background-vignette">
+      <img src="/vignette.a34e008d.png" alt="">
+    </div>
+    <div class="background-color"></div>
+    <div class="background-texture"></div>
+    <main>
+      <div class="header">
+        <h1>
+          lo-fi aesthetic pomodoro timer
+        </h1>
+        <p>
+          start a study/work/vibe session with <i>lo-fi girl</i>, 
+          take a break when you hear the <i>♫</i>
+          <span class="select">
+            <select id="sound-effect">
+              <option value="buzz">buzz</option>
+              <option value="chime">bloom</option>
+              <option value="gameShow">chime</option>
+              <option value="ding">ding</option>
+              <option value="doorbell">door</option>
+              <option value="harp">harp</option>
+              <option value="magicalGirl">magic</option>
+              <option value="none">silence</option>
+            </select>
+          </span>,
+          repeat until you’re done.<br>
+          <i>(current session: #<span id="counter">1</span>)</i>
+        </p>
+      </div>
+      
+      <div class="primary-controls">
+        <div class="clock">
+          2:00
+        </div>
+        <button id="session-control" class="button button-primary">▶ Start session</button>
+      </div>
+
+      <div class="video-container">
+        <div id="player"></div>
+      </div>
+      
+      <div id="audio-controls">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" currentcolor="fill" id="icon-mute"><path d="m7.727 6.313-4.02-4.02-1.414 1.414 18 18 1.414-1.414-2.02-2.02A9.578 9.578 0 0 0 21.999 12c0-4.091-2.472-7.453-5.999-9v2c2.387 1.386 3.999 4.047 3.999 7a8.13 8.13 0 0 1-1.671 4.914l-1.286-1.286C17.644 14.536 18 13.19 18 12c0-1.771-.775-3.9-2-5v7.586l-2-2V2.132L7.727 6.313zM4 17h2.697L14 21.868v-3.747L3.102 7.223A1.995 1.995 0 0 0 2 9v6c0 1.103.897 2 2 2z"></path></svg>
+          <input type="range" id="volume-slider" min="0" max="100" value="100">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" currentcolor="fill" id="icon-unmute"><path d="M16 21c3.527-1.547 5.999-4.909 5.999-9S19.527 4.547 16 3v2c2.387 1.386 3.999 4.047 3.999 7S18.387 17.614 16 19v2z"></path><path d="M16 7v10c1.225-1.1 2-3.229 2-5s-.775-3.9-2-5zM4 17h2.697L14 21.868V2.132L6.697 7H4c-1.103 0-2 .897-2 2v6c0 1.103.897 2 2 2z"></path></svg>
+      </div>
+    </main>
+    
+    <script src="/index.0641b553.js" defer=""></script>
+  </body>
+</html>
