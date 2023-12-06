@@ -1,0 +1,20 @@
+{
+  "name": "pomoday",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build",
+    "build:prod": "rm -rf dist && parcel build src/index.html --public-url https://pomodoro.day && cp CNAME ./dist",
+    "deploy": "npm run build:prod && git subtree push --prefix dist origin gh-pages"
+  },
+  "devDependencies": {
+    "buffer": "^5.5.0",
+    "parcel": "latest",
+    "process": "^0.11.10"
+  },
+  "alias": {
+    "process": "process/browser.js",
+    "buffer": "buffer"
+  }
+}
