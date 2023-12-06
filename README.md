@@ -11,6 +11,6 @@ i’m always running a lo-fi girl tab and a pomodoro timer tab, so i wanted to c
 ### colophon
 
 - built with [parcel](https://parceljs.org/) and vanilla js + css
-- set in [cartograph cf](https://connary.com/cartograph.html) via adobe fonts
+- set in [cartograph mono cf](https://connary.com/cartograph.html) via adobe fonts
 - background art generated with dall-e
 - sound effects licensed from epidemic sound
